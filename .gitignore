@@ -1,0 +1,38 @@
+# TradeSphere Pro — .gitignore
+
+# Maven build output
+target/
+*.class
+
+# Runtime data files (SQLite DB auto-recreated on startup)
+tradesphere.db
+tradesphere.db-wal
+tradesphere.db-shm
+
+# Generated reports (auto-created on export)
+reports/
+
+# IDE files
+.idea/
+*.iml
+.eclipse/
+.project
+.classpath
+.settings/
+*.launch
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Maven wrapper JAR (downloaded automatically)
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
